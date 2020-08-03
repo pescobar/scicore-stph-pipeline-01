@@ -13,16 +13,16 @@ It also provides [Arlequin ver 3.5.2.2](http://www.cmpg.unibe.ch/software/arlequ
 
 ## Downloading the container with Singularity (latest)
 
-   `$> singularity pull "pipeline_stph_01.sif" docker://pescobar/scicore-stph-pipeline-01:latest`
+   `$> singularity pull pipeline-stph-01.sif docker://pescobar/scicore-stph-pipeline-01:latest`
 
-## Downloading the container with Singularity (specific version)
+## Downloading the container with Singularity (specific release version)
 
-   `$> singularity pull "pipeline_stph_0.0.1.sif" docker://pescobar/scicore-stph-pipeline-01:0.0.1`
+   `$> singularity pull pipeline-stph-01-release-0.0.1.sif  docker://pescobar/scicore-stph-pipeline-01:release-0.0.1`
 
 ## Using the container with singularity
 
-   `$> singularity exec pipeline_stph_0.0.1.sif picard --help`
+   `$> singularity exec pipeline-stph-01-release-0.0.1.sif picard --help`
 
 ## Interactive shell inside the container with singularity
 
-   `$> singularity shell pipeline_stph_0.0.1.sif`
+   `$> singularity shell pipeline-stph-01-release-0.0.1.sif`
