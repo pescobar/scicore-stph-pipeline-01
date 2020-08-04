@@ -11,11 +11,9 @@ picard==2.23.3
 
 It also provides [Arlequin ver 3.5.2.2](http://www.cmpg.unibe.ch/software/arlequin35/)
 
-## Downloading the container with Singularity (latest)
-
-   `$> singularity pull pipeline-stph-01.sif docker://pescobar/scicore-stph-pipeline-01:latest`
-
 ## Downloading the container with Singularity (specific release version)
+
+Check the available versions in the [Tags tab](https://hub.docker.com/r/pescobar/scicore-stph-pipeline-01/tags)
 
    `$> singularity pull pipeline-stph-01-release-0.0.1.sif  docker://pescobar/scicore-stph-pipeline-01:release-0.0.1`
 
